@@ -34,14 +34,16 @@
   * [Grails](#grails)
   * [Spock Framework](#spock-framework)
 * [Haskell](#haskell)
-* [Haxe](#haxe)
 * [iOS](#ios)
 * [Java](#java)
 * [JavaScript](#javascript)
+  * [Angular.js](#angularjs)
   * [Backbone.js](#backbonejs)
   * [D3.js](#d3js)
   * [jQuery](#jquery)
   * [Node.js](#nodejs)
+  * [React](#react)
+* [Julia](#julia)
 * [LaTeX](#latex)
 * [Linux](#linux)
 * [Lua](#lua)
@@ -226,6 +228,7 @@
 * [Ｃプログラミング診断室](http://www.pro.or.jp/~fuji/mybooks/cdiag/index.html) - 藤原博文
 * [C言語](https://ja.wikibooks.org/wiki/C%E8%A8%80%E8%AA%9E) - Wikibooks
 * [C言語プログラミング入門](http://densan-labs.net/tech/clang/) - @nishio_dens
+* [お気楽Ｃ言語プログラミング超入門](http://www.geocities.jp/m_hiroi/linux/clang.html) - 広井誠
 * [ゲーム作りで学ぶ！実践的C言語プログラミング](http://densan-labs.net/tech/game/) - @nishio_dens
 * [猫でもわかるプログラミング](http://kumei.ne.jp/c_lang/) - 粂井康孝
 * [計算物理のためのC/C++言語入門](http://www-cms.phys.s.u-tokyo.ac.jp/~naoki/CIPINTRO/) - 渡辺尚貴
@@ -238,6 +241,7 @@
 * [cpprefjp - C++ Reference Site in Japanese](https://cpprefjp.github.io)
 * [Google C++スタイルガイド 日本語訳](http://www.textdrop.net/google-styleguide-ja/cppguide.xml) - Benjy Weinberger, Craig Silverstein, Gregory Eitzmann, Mark Mentovai, Tashana Landray, Takashi Sasai(翻訳)
 * [Standard Template Library プログラミング](http://episteme.wankuma.com/stlprog/) - επιστημη
+* [お気楽Ｃ++プログラミング超入門](http://www.geocities.jp/m_hiroi/linux/cpp.html) - 広井誠
 * [ロベールのＣ＋＋教室](http://www7b.biglobe.ne.jp/~robe/cpphtml/) - ロベール
 
 
@@ -346,17 +350,11 @@
 * [お気楽 Haskell プログラミング入門](http://www.geocities.jp/m_hiroi/func/haskell.html) - 広井誠
 
 
-### Haxe
-
-* [Haxe 言語リファレンス](http://haxe.org/ref?lang=jp)
-
-
 ### iOS
 
 * [Cocoa Programming Tips 1001](http://hmdt.jp/tips/cocoa/index.html) - 木下誠
 * [iOSアプリケーション プログラミングガイド](https://developer.apple.com/jp/devcenter/ios/library/documentation/iPhoneAppProgrammingGuide.pdf) - Apple Developer (PDF)
 * [RubyMotion Tutorial: Ruby で iOS アプリを作ろう](http://tutorial.rubymotion.jp) - Clay Allsopp, RubyMotion JP(翻訳)
-* [Web API を利用する iOS アプリ作成](https://github.com/hatena/Hatena-Textbook/blob/master/ios-app-development-with-web-api.md) - はてな教科書
 * [初めての iOS アプリケーション](https://developer.apple.com/jp/devcenter/ios/library/documentation/iPhone101.pdf) - Apple Developer (PDF)
 
 
@@ -385,6 +383,15 @@
 * [中上級者になるためのJavaScript](https://kenju.gitbooks.io/js_step-up-to-intermediate/) - Kenju
 
 
+#### Angular.js
+
+* [AngularJS 1.2 日本語リファレンス](http://js.studio-kingdom.com/angularjs) - @tomof(翻訳)
+* [AngularJS 日本語マニュアル](http://angular-js.net)
+* [AngularJS's tutorial - あなたとともにAngularJS](http://lab.hisasann.com/AngularJSTutorial/) - @hisasann
+* [AngularJSスタイルガイド](https://github.com/mgechev/angularjs-style-guide/blob/master/README-ja-jp.md)
+* [すぐできる AngularJS](http://8th713.github.io/LearnAngularJS) - @8th713
+
+
 #### Backbone.js
 
 * [Backboneドキュメント日本語訳](https://github.com/enja-oss/Backbone) - Jeremy Ashkenas, @studiomohawk(監訳)
@@ -406,6 +413,19 @@
 * [Felix's Node.js Style Guide](http://popkirby.github.io/contents/nodeguide/style.html) - Debuggable Limited., @popkirby(翻訳)
 * [node.js 怒濤の50サンプル!! – socket.io編](https://github.com/omatoro/NodeSample) - omatoro
 * [Nodeビギナーズブック](http://www.nodebeginner.org/index-jp.html) - Manuel Kiessling, Yuki Kawashima(翻訳)
+
+
+#### React
+
+* [React 0.13 日本語リファレンス](http://js.studio-kingdom.com/react) - @tomof(翻訳)
+* [React チュートリアル](https://facebook.github.io/react/docs/tutorial-ja-JP.html) - Facebook Inc.
+
+
+### Julia
+
+* [Julia 0.3.8](http://stat.biopapyrus.net/julia/) - 孫建強
+* [Julia Language Programming](http://www.geocities.jp/m_hiroi/light/julia.html) - 広井誠
+* [実例で学ぶ Julia-0.4.1](https://www.dropbox.com/s/lk7y8lifjcr1vf2/JuliaBook-20151201.pdf) - Yuichi Motoyama (PDF)
 
 
 ### LaTeX
@@ -477,13 +497,11 @@
 ### Perl
 
 * [2時間半で学ぶPerl](http://qntm.org/files/perl/perl_jp.html) - Sam Hughes, Kato Atsusi(翻訳)
-* [MVC によるウェブアプリケーション開発 (Plack を使った開発)](https://github.com/hatena/Hatena-Textbook/blob/master/mvc-web-application-with-plack.md) - はてな教科書
 * [Perl](https://ja.wikibooks.org/wiki/Perl) - Wikibooks
-* [Perl でのデータベース操作](https://github.com/hatena/Hatena-Textbook/blob/master/db-control-by-dbi.md) - はてな教科書
-* [Perl によるオブジェクト指向プログラミング](https://github.com/hatena/Hatena-Textbook/blob/master/oop-for-perl.md) - はてな教科書
+* [Perl でのデータベース操作](https://github.com/hatena/Hatena-Textbook/blob/master/database-programming-perl.md) - はてな教科書
 * [Perl のコアドキュメント](http://perldoc.jp/index/core) - 一般社団法人 Japan Perl Association (JPA)
-* [Perl を使ったテストの書き方](https://github.com/hatena/Hatena-Textbook/blob/master/test-for-perl.md) - はてな教科書
 * [Perl 基礎文法最速マスター](http://d.hatena.ne.jp/perlcodesample/20091226/1264257759) - 木本裕紀
+* [お気楽 Perl プログラミング超入門](http://www.geocities.jp/m_hiroi/linux/perl.html) - 広井誠
 
 
 ### PHP
@@ -522,7 +540,8 @@
 * [Notes on scientific computing with python](http://japanichaos.appspot.com) - 花田康高
 * [php プログラマのための Python チュートリアル](http://phpy.readthedocs.org/en/latest/) - INADA Naoki
 * [Python 2.7.2 ドキュメント日本語訳](http://docs.python.jp/2.7/) - Python Software Foundation
-* [Python Scientific Lecture Notes (一部翻訳)](http://turbare.net/transl/scipy-lecture-notes/) - 打田旭宏(翻訳)
+* [Python 3.4 / NumPy / SciPy](http://stat.biopapyrus.net/python/) - 孫建強
+* [Python Scientific Lecture Notes](http://turbare.net/transl/scipy-lecture-notes/) - 打田旭宏(翻訳)
 * [python で心理実験](http://www.s12600.net/psy/python/) - 十河宏行
 * [Python で音声信号処理](http://aidiary.hatenablog.com/entry/20110514/1305377659) - id:aidiary
 * [Python による日本語自然言語処理](http://www.nltk.org/book-jp/ch12.html) - Steven Bird, Ewan Klein, Edward Loper, 萩原正人(翻訳), 中山敬広(翻訳), 水野貴明(翻訳)
@@ -545,8 +564,10 @@
 
 ### R
 
-* [Google's R Style Guide](http://www.okada.jp.org/RWiki/?Google%27s%20R%20Style%20Guide) - Google, 岡田昌史(翻訳)
 * [R-Tips](http://cse.naro.affrc.go.jp/takezawa/r-tips/r2.html) - 舟尾暢男
+* [R グラフィックス](http://stat.biopapyrus.net/graph/) - 孫建強
+* [R プログラミング](http://stat.biopapyrus.net/r/) - 孫建強
+* [R プログラミング / 発展編](http://stat.biopapyrus.net/dev/) - 孫建強
 * [R 入門](http://cran.r-project.org/doc/contrib/manuals-jp/R-intro-170.jp.pdf) - W. N. Venables, D. M. Smith and the R Development Core Team, 間瀬茂(翻訳) (PDF)
 * [R 基本統計関数マニュアル](http://cran.r-project.org/doc/contrib/manuals-jp/Mase-Rstatman.pdf) - 間瀬茂 (PDF)
 * [R 言語定義](http://cran.r-project.org/doc/contrib/manuals-jp/R-lang.jp.v110.pdf) - R Development Core Team, 間瀬茂(翻訳) (PDF)
@@ -567,6 +588,7 @@
 * [Ruby 基礎文法最速マスター](http://route477.net/d/?date=20100125)
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/) - 高宮安仁, 鈴木一哉, 松井暢之, 村木暢哉, 山崎泰宏
 * [お気楽 Ruby プログラミング入門](http://www.geocities.jp/m_hiroi/light/ruby.html) - 広井誠
+* [つくって学ぶプログラミング言語 RubyによるScheme処理系の実装](http://tatsu-zine.com/books/scheme-in-ruby) - 渡辺昌寛
 * [ホワイの(感動的)Rubyガイド](http://www.aoky.net/articles/why_poignant_guide_to_ruby/) - why the lucky stiff, 青木靖(翻訳)
 
 
